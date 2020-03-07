@@ -19,6 +19,7 @@
 		38D448A4199ECA97FD9EE31B /* libPods-RN_Date_to_TimestampTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA2B388E5A22DA5E4C49734B /* libPods-RN_Date_to_TimestampTests.a */; };
 		4BF6C184D2590C907F8373E9 /* libPods-RN_Date_to_Timestamp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB158415EADE2971697690E /* libPods-RN_Date_to_Timestamp-tvOSTests.a */; };
 		8927DC674ADBEAD47EF85EDE /* libPods-RN_Date_to_Timestamp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A49714D4750BF9363FBC50 /* libPods-RN_Date_to_Timestamp.a */; };
+		C2456FE0241400BD0013E259 /* ConvertDate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2456FDF241400BD0013E259 /* ConvertDate.m */; };
 		D06A18CAD9B7B902BB8775B5 /* libPods-RN_Date_to_Timestamp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E6C68130F150756CF96DA04 /* libPods-RN_Date_to_Timestamp-tvOS.a */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,8 @@
 		68CF7465FB13288603842752 /* Pods-RN_Date_to_Timestamp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_Date_to_Timestamp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RN_Date_to_Timestamp-tvOS/Pods-RN_Date_to_Timestamp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A1D1A07B688EA0F789BDDDE7 /* Pods-RN_Date_to_Timestamp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_Date_to_Timestamp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RN_Date_to_Timestamp-tvOSTests/Pods-RN_Date_to_Timestamp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		BA2B388E5A22DA5E4C49734B /* libPods-RN_Date_to_TimestampTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RN_Date_to_TimestampTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2456FDE241400A40013E259 /* ConvertDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConvertDate.h; sourceTree = "<group>"; };
+		C2456FDF241400BD0013E259 /* ConvertDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConvertDate.m; sourceTree = "<group>"; };
 		C30E3F95685A918C5BC34BFB /* Pods-RN_Date_to_Timestamp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_Date_to_Timestamp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RN_Date_to_Timestamp-tvOSTests/Pods-RN_Date_to_Timestamp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D58A265A8E9B5A329D8A3376 /* Pods-RN_Date_to_TimestampTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN_Date_to_TimestampTests.release.xcconfig"; path = "Target Support Files/Pods-RN_Date_to_TimestampTests/Pods-RN_Date_to_TimestampTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -132,6 +135,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				C2456FDE241400A40013E259 /* ConvertDate.h */,
+				C2456FDF241400BD0013E259 /* ConvertDate.m */,
 			);
 			name = RN_Date_to_Timestamp;
 			sourceTree = "<group>";
@@ -161,7 +166,6 @@
 				3B678D921C7F126505268AD3 /* Pods-RN_Date_to_TimestampTests.debug.xcconfig */,
 				D58A265A8E9B5A329D8A3376 /* Pods-RN_Date_to_TimestampTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +312,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -529,6 +534,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				C2456FE0241400BD0013E259 /* ConvertDate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
