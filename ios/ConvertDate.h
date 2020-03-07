@@ -9,5 +9,9 @@
 #ifndef ConvertDate_h
 #define ConvertDate_h
 
+#import <React/RCTBridgeModule.h>
+
+@interface ConvertDate : NSObject <RCTBridgeModule>
+@end
 
 #endif /* ConvertDate_h */
